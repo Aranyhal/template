@@ -6,10 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <form action="/action_page.php">
+        <div class="container">
+          <h1>Jelentkezés</h1>
+          
+          <input type="text" placeholder="Név" name="name" id="name" required>
+          
+          <input type="text" placeholder="Email cím" name="email" id="email" required>
+
+         <div class="checkbox">
+          <input type="checkbox" id="checkbox" name="checkbox">
+          <label for="checkbox"> Elolvastam és elfogadom az <span>Adatkezelési Tájékoztatót.</span>
+          </label>
+        </div>
+      
+          <button type="submit">Elküld</button>
+        </div>
+        
+     </form>
+      
 </body>
 </html>
